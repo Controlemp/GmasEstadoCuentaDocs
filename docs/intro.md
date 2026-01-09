@@ -2,46 +2,47 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Bienvenido a GMAS
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**GMAS** (Sistema de Gestión y Administración) es una plataforma integral diseñada para la gestión empresarial moderna.
 
-## Getting Started
+## Introducción
 
-Get started by **creating a new site**.
+GMAS proporciona herramientas completas para administrar diferentes aspectos de tu negocio, desde la gestión de compañías y usuarios hasta el control de vendedores y la integración con sistemas ERP como Microsoft Dynamics 365 Business Central.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Características Principales
 
-### What you'll need
+### 🏢 Gestión Multiempresa
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Administra múltiples compañías desde una sola plataforma, con configuraciones independientes para cada empresa.
 
-## Generate a new site
+### 👥 Administración de Usuarios
 
-Generate a new Docusaurus site using the **classic template**.
+Control completo de usuarios con diferentes niveles de acceso, asignación de empresas y vendedores, y gestión de permisos granular.
 
-The classic template will automatically be added to your project after you run the command:
+### 💼 Gestión de Vendedores
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Catálogo completo de vendedores con funcionalidades avanzadas como importación masiva desde Excel y asignación a usuarios.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 🔐 Seguridad Robusta
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Sistema de autenticación con JWT, gestión de sesiones, políticas de contraseñas y registro de auditoría.
 
-## Start your site
+### 🔗 Integraciones
 
-Run the development server:
+Conexión con Microsoft Dynamics 365 Business Central y configuración de notificaciones por correo electrónico.
 
-```bash
-cd my-website
-npm run start
-```
+## Comenzando
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Explora la documentación de los módulos disponibles para conocer todas las funcionalidades del sistema:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+- **[Dashboard](/docs/modulos/dashboard)** - Panel principal con vista general
+- **[Compañías](/docs/modulos/companias)** - Gestión de empresas
+- **[Usuarios](/docs/modulos/usuarios)** - Administración de usuarios
+- **[Vendedores](/docs/modulos/vendedores)** - Gestión de vendedores
+- **[Perfil](/docs/modulos/perfil)** - Configuración personal
+- **[Configuración](/docs/modulos/configuracion)** - Configuración del sistema
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## ¿Necesitas Ayuda?
+
+Si tienes preguntas o necesitas asistencia, contacta al administrador del sistema o al departamento de TI de tu organización.
